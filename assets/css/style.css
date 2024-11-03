@@ -61,3 +61,13 @@ h2 {
     min-height: 500px;
     padding: 5% 7%;
 }
+
+
+/* media queries */
+@media screen and {min-width: 1200px}
+    /* fixes all portfolio cards being too tall on xl screens */
+    #portfolio .card-text {
+        min-height: auto;
+    }
+}
+/* Use Bootstrap breakpoint for XL screens */
